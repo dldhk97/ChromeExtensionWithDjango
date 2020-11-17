@@ -14,6 +14,7 @@ function callback(){
 function get_analyzed_info(){
 	var xhr = new XMLHttpRequest();
 	
+	// After server sent data, below code will run
 	xhr.onload = function() {
 		if (xhr.status === 200 || xhr.status === 201){
 			const received_arr = JSON.parse(xhr.response)
