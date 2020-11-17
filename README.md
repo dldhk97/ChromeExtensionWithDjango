@@ -8,7 +8,7 @@ python -m pip install -r .\requirements.txt
 
 ## How to run
 ```
-python .\Server\manage.py runserver
+python .\Server\manage.py runserver 8080
 ```
 
 ## If CORS error occurred

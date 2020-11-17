@@ -1,7 +1,8 @@
 from django.conf.urls import url
 
 from . import views
+from django.urls import path, include
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url('user/analyzedinfo/get', views.get_analyzed_info, name='get'),
 ]
