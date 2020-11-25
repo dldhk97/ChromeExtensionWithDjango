@@ -1,6 +1,8 @@
 # ChromeExtensionWithDjango
 Simple chrome extension and python django server for AJAX request.
 
+Extension sends request after page refreshed.
+
 ## Installation
 ```
 python -m pip install -r .\requirements.txt
