@@ -39,19 +39,19 @@ function get_analyzed_info(){
 
 	// 1. insert data after creation
 	var json1 = new Object();
-	json1.url = 'https://blog.naver.com/ohmin0030/222109002875';
+	json1.url = 'https://www.naver.com/';
 	
 	// 2. insert data with creation
 	var json2 = { 
-		'url': 'https://blog.naver.com/jsjung1999/221822297628',
+		'url': 'https://www.google.com/',
 	}
 	
 	var json3 = new Object();
-	json3.url = 'https://blog.naver.com/seamarket0/222070563655';
+	json3.url = 'https://www.daum.net/';
 	var json4 = new Object();
-	json4.url = 'https://blog.naver.com/spring5867/221848503423';
+	json4.url = 'https://duckduckgo.com/';
 	var json5 = new Object();
-	json5.url = 'https://blog.naver.com/nanaflowercake/222010991755';
+	json5.url = 'https://yandex.com/';
 	
 	// Create array for send
 	var jsonArray = new Array();
